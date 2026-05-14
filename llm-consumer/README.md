@@ -2,6 +2,8 @@
 
 Separate **Kafka consumer** that reads Allen inference messages (JSON bytes, same shape as `IntervalSerde.inferenceToJsonBytes`) and calls **Ollama** over HTTP. Processing within each **poll batch** is parallel (`ExecutorService`); offsets are committed **after the whole batch** completes (demo trade-off: slow batches block commits).
 
+**Where this sits in the system:** see the parent repo [`docs/application-topology.md`](../docs/application-topology.md) (Mermaid: Kafka Streams paths + this consumer + Ollama).
+
 ## Build
 
 ```bash

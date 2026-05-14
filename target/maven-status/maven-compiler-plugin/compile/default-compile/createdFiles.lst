@@ -9,6 +9,7 @@ com/example/allenstreams/IntervalBuffersSerde.class
 com/example/allenstreams/StreamSide.class
 com/example/allenstreams/IntervalSerde.class
 com/example/allenstreams/TaggedInterval.class
+com/example/allenstreams/AllenComposition.class
 com/example/allenstreams/TaggedIntervalSerde$Ser.class
 com/example/allenstreams/AllenIntervalAlgebra.class
 com/example/allenstreams/AllenBufferTransformer.class

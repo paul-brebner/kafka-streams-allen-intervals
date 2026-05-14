@@ -1,6 +1,10 @@
 package com.example.allenstreams;
 
-/** The thirteen Allen relations of interval A to interval B (proper intervals: start before end). */
+/**
+ * The thirteen Allen relations of interval A to interval B (proper intervals: start before end).
+ *
+ * <p>Composition of relations along a shared middle interval is in {@link AllenComposition}.
+ */
 public enum AllenRelation {
     BEFORE,
     MEETS,

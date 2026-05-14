@@ -1,5 +1,9 @@
-com/example/allenstreams/AllenBufferedTopologyTest.class
 com/example/allenstreams/AllenBufferedTopologyDemoTest.class
-com/example/allenstreams/AllenBufferedTopologyManyRelationsTest.class
 com/example/allenstreams/AllenInferenceTopologyTest.class
+com/example/allenstreams/AllenBufferedTopologyTest.class
+com/example/allenstreams/AllenBufferedTopologyManyRelationsTest.class
+com/example/allenstreams/AllenRelationInverseConsistencyTest.class
+com/example/allenstreams/AllenCompositionExamplesTest$1Sample.class
+com/example/allenstreams/AllenCompositionExamplesTest.class
+com/example/allenstreams/AllenCompositionTest.class
 com/example/allenstreams/AllenBufferedTopologyManyRelationsTest$Case.class

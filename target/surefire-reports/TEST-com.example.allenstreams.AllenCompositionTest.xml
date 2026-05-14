@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.allenstreams.AllenInferenceTopologyTest" time="0.613" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.allenstreams.AllenCompositionTest" time="0.043" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -56,7 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="overlappingStartsFarApart_canBeMissedByJoinWindow" classname="com.example.allenstreams.AllenInferenceTopologyTest" time="0.314"/>
-  <testcase name="joinOverlappingIntervals_emitsOverlapsRelation" classname="com.example.allenstreams.AllenInferenceTopologyTest" time="0.159"/>
-  <testcase name="joinNonOverlappingButCloseStarts_stillClassifiesBefore" classname="com.example.allenstreams.AllenInferenceTopologyTest" time="0.138"/>
+  <testcase name="everyWitnessedTriple_respectsCompositionTable" classname="com.example.allenstreams.AllenCompositionTest" time="0.041"/>
+  <testcase name="composeSets_onSingletons_matchesCompose" classname="com.example.allenstreams.AllenCompositionTest" time="0.001"/>
 </testsuite>

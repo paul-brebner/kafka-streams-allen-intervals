@@ -1,4 +1,7 @@
 /Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenBufferedTopologyDemoTest.java
 /Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenBufferedTopologyManyRelationsTest.java
 /Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenBufferedTopologyTest.java
+/Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenCompositionExamplesTest.java
+/Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenCompositionTest.java
 /Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenInferenceTopologyTest.java
+/Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals/src/test/java/com/example/allenstreams/AllenRelationInverseConsistencyTest.java

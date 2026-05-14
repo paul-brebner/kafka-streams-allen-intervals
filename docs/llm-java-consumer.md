@@ -2,6 +2,8 @@
 
 The Streams topologies in the parent project **produce** inference records. This **`llm-consumer`** module is a **separate process** that **consumes** those records and calls a **local** LLM (Ollama) over HTTP—keeping slow, variable work **out of the stream task threads**.
 
+**Full system diagram (Streams + topics + LLM):** [`docs/application-topology.md`](application-topology.md)
+
 See **[`llm-consumer/README.md`](../llm-consumer/README.md)** for build/run commands and system properties.
 
 **Flow:** `allen-inferences-buffered` (or `kafka.topic`) → parallel Ollama calls per poll batch → logs; optionally **`kafka.output.topic`** for JSON envelopes `{ inferenceJson, explanation, ... }`.

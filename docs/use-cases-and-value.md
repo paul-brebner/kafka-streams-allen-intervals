@@ -30,6 +30,8 @@ The buffer path here is intentionally small. A production-oriented design usuall
 - **Out-of-order and lateness** handling if `endMs` or corrections arrive after you thought the interval was closed; alignment with **watermarks** and business rules for “closed vs open” intervals.
 - A clear contract for consumers: which side is **A** vs **B** in the payload (this repo labels `a` / `b` consistently with the two input streams).
 
+The repo also ships the **full 13×13 basic-relation composition table** (`AllenComposition`) for reasoning about **chains** A–B–C; see [`allen-composition.md`](allen-composition.md). That is orthogonal to the Kafka Streams pairing logic.
+
 ## Bottom line
 
 You have a **sharp illustration** of a common Streams pitfall and a **plausible first step** toward real interval correlation. The realistic use case is **any system where the business object is an interval and correctness depends on the interval geometry**, not only on stream-time proximity—provided you treat the buffer as a **bounded-memory heuristic** until you invest in indexing, lifecycle, and replay semantics.
