@@ -38,7 +38,7 @@ That fixes the classic join false negative where **overlapping** intervals have 
 ## Build & test
 
 ```bash
-cd /Users/pbrebner/Applications/Experiments/kafka-streams-allen-intervals
+cd /whereitlives/kafka-streams-allen-intervals
 mvn -q test
 ```
 
