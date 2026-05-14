@@ -1,0 +1,2 @@
+{"key":"room-1","relation":"OVERLAPS","a":{"startMs":0,"endMs":100},"b":{"startMs":50,"endMs":150}}
+{"key":"lane-2","relation":"BEFORE","a":{"startMs":0,"endMs":10},"b":{"startMs":20,"endMs":30}}

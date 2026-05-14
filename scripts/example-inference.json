@@ -1,0 +1,6 @@
+{
+  "key": "room-1",
+  "relation": "OVERLAPS",
+  "a": { "startMs": 0, "endMs": 1000000 },
+  "b": { "startMs": 999000, "endMs": 1000001 }
+}
